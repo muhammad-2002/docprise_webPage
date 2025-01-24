@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundColor:{
+        'background-primary':'#131316'
+      }
     },
   },
   plugins: [],
