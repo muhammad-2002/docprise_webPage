@@ -41,7 +41,7 @@ const Features = () => {
         </div>
         <div className="border border-solid rounded-xl">
           <div className="w-80 p-2  rounded-lg shadow-lg text-center">
-            <h1 className="text-white">
+            <h1 className="text-white mt-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
               dolore asperiores autem eos dolores vitae quasi{" "}
             </h1>
@@ -51,10 +51,10 @@ const Features = () => {
 
             <div className="grid grid-cols-3 gap-1 mt-20">
               <button className="p-1 text-sm text-white bg-[#131316] rounded-md  transition">
-                Start Recording
+                Start
               </button>
               <button className="p-1 text-sm text-white bg-[#131316] rounded-md  transition">
-                Stop Recording
+                Stop
               </button>
               <button className="p-1 text-sm text-white bg-[#131316] rounded-md  transition">
                 Pause
