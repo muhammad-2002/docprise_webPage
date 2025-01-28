@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center px-7 -mt-4 mb-5">
+      <div className="flex  flex-col-reverse md:flex-row  justify-between items-center px-7 -mt-4 mb-5">
         <p>All right reserved. ©2025</p>
         <div className="flex justify-end gap-4 items-start">
           <p>Changelog</p>

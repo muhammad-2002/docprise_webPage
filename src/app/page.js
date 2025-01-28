@@ -1,3 +1,4 @@
+'use client'
 import BannerPage from "@/components/HomePage/BannerPage";
 import Customer from "@/components/HomePage/Customer";
 import Features from "@/components/HomePage/Features";
@@ -7,6 +8,10 @@ import Navbar from "@/components/HomePage/Navbar";
 import Pricing from "@/components/HomePage/Pricing";
 import Productivity from "@/components/HomePage/Productivity";
 import Image from "next/image";
+import OurService from './../components/HomePage/OurService';
+import WhyChooseUs from "@/components/HomePage/WhyChoseUs";
+import HexagonGridContainer from "@/components/HexagonGridContainer";
+import WhatWeDo from "./../components/HomePage/OurService";
 
 export default function Home() {
   return (
@@ -14,11 +19,8 @@ export default function Home() {
       <div className="w-full mx-auto">
       <Navbar></Navbar>
       <BannerPage></BannerPage>
-      <Features></Features>
-      <Productivity></Productivity>
-      <Integrations></Integrations>
-      <Pricing></Pricing>
-    <Customer></Customer>
+     <WhatWeDo></WhatWeDo>
+     <WhyChooseUs></WhyChooseUs>
   <Footer></Footer>
       </div>
 
