@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="w-[85%] mx-auto">
-      <div className="container flex flex-col p-8 mx-auto md:p-8 lg:flex-row dark:divide-gray-600">
+      <div className=" flex flex-col p-8 mx-auto md:p-8 lg:flex-row dark:divide-gray-600">
         <ul className="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
           <li>Features</li>
           <li>Integrations</li>

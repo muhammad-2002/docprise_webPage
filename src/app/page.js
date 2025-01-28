@@ -12,6 +12,7 @@ import OurService from './../components/HomePage/OurService';
 import WhyChooseUs from "@/components/HomePage/WhyChoseUs";
 import HexagonGridContainer from "@/components/HexagonGridContainer";
 import WhatWeDo from "./../components/HomePage/OurService";
+import ContactUsSection from "@/components/HomePage/ContuctUs";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <BannerPage></BannerPage>
      <WhatWeDo></WhatWeDo>
      <WhyChooseUs></WhyChooseUs>
+     <ContactUsSection></ContactUsSection>
   <Footer></Footer>
       </div>
 

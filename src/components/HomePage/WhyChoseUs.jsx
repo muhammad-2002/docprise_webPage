@@ -44,19 +44,21 @@ const WhyChooseUs = () => {
   return (
     <div className="why-choose-us-container md:w-[90%] mx-auto px-4 py-5  text-center">
       <h2 className="text-4xl font-bold text-white mb-8">Why Choose Us</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white gap-6">
+      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white gap-6">
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="card bg-[#131316] rounded-2xl shadow-lg p-6 transition-transform  border border-[#c2268f]"
+            className="card bg-[#131316] rounded-2xl hover:scale-105  cursor-pointer shadow-lg p-6 transition-transform  border border-[#c2268f]"
           >
-            <button className="border-solid border rounded-lg p-3 hover:scale-105 bg-white text-center ">
+            <button className="border-solid  rounded-lg p-3 hover:scale-105 text-center ">
               <Image src={card.icon} alt="icon" width={50} height={50}></Image>
             </button>
-            <h3 className="card-title text-xl font-semibold mt-2  mb-3">
+            <h3 className="card-title  text-xl font-bold mt-2  mb-3">
               {card.title}
             </h3>
-            <p className="card-description ">{card.description}</p>
+            <p className="card-description font-normal text-[14px] ">
+              {card.description}
+            </p>
           </div>
         ))}
       </div>

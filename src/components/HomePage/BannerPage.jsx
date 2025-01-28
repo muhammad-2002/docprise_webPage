@@ -38,7 +38,7 @@ export default function BannerPage() {
           </div>
           <div className="flex gap-6 flex-col justify-center sm:flex-row w-full sm:w-[80%] mx-auto ">
             <div className="bg-[#070708] border text-center w-full md:w-[250px] p-5 rounded-xl space-y-3">
-              <button className="border-solid border rounded-lg p-3 bg-white text-center ">
+              <button className="border-solid border rounded-lg p-3 border-[#FF00AD] text-center ">
                 <Image
                   src={"/stream-worflow.png"}
                   alt="const"
@@ -46,10 +46,10 @@ export default function BannerPage() {
                   height={30}
                 ></Image>
               </button>
-              <h1 className="text-xl font-bold">Streamline Workflows</h1>
+              <h1 className="text-[18px] font-bold">Streamline Workflows</h1>
             </div>
             <div className="bg-[#070708] border text-center w-full md:w-[250px] p-5 rounded-xl space-y-3">
-              <button className="border-solid border bg-white rounded-lg p-3 ">
+              <button className="border-solid border rounded-lg p-3 border-[#FF00AD] text-center ">
                 <Image
                   src="/reduce-cost.png"
                   alt="cost"
@@ -57,10 +57,10 @@ export default function BannerPage() {
                   height={30}
                 />
               </button>
-              <h1 className="text-xl font-bold">Reduce Costs</h1>
+              <h1 className="text-[18px] font-bold">Reduce Costs</h1>
             </div>
             <div className="bg-[#070708] border text-center w-full md:w-[250px] p-5 rounded-xl space-y-3">
-              <button className="border-solid border rounded-lg bg-white p-3 ">
+              <button className="border-solid border rounded-lg p-3 border-[#FF00AD] text-center ">
                 <Image
                   src={"/compliance.png"}
                   alt="const"
@@ -68,7 +68,7 @@ export default function BannerPage() {
                   height={30}
                 ></Image>
               </button>
-              <h1 className="text-xl font-bold">Enhance Compliance</h1>
+              <h1 className="text-[18px] font-bold">Enhance Compliance</h1>
             </div>
           </div>
         </div>
