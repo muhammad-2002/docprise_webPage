@@ -16,9 +16,9 @@ const WhatWeDo = () => {
       <h2 className="text-4xl font-extrabold text-center text-white mb-8">
         What We Do
       </h2>
-      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-6 ">
+      <div className="flex flex-col md:flex-row items-center justify-around gap-6 md:gap-0 ">
         {/* Image Section */}
-        <div className="md:w-1/2 ">
+        <div className="md:w-[40%] text-center ">
           <Image
             src="/what-i-do.png"
             alt="What We Do"
